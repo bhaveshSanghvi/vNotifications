@@ -1,0 +1,40 @@
+<style>
+#table
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#table td, #table th 
+{
+font-size:1em;
+padding:3px 7px 2px 7px;
+}
+#table th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+-webkit-animation-name:myfirst;
+	-webkit-animation-duration:30s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+color:#ffffff;
+}
+#table tr.alt td 
+{
+color:#000000;
+background-color:Skyblue;
+}
+#table textarea {
+	background-color:white;
+}
+#table select {
+	background-color: pink;
+}
+</style>
+

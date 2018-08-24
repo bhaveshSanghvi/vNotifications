@@ -1,0 +1,10 @@
+input.button {
+	display:block;
+	width:243px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:RED;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;	
+}

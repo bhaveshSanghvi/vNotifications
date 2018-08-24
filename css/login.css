@@ -1,0 +1,40 @@
+.login {
+	position: absolute;
+	top: 30%;
+	left:35%;
+	height:200px;
+	width:340px;
+	background-color: red;
+	color:black;
+	font-weight: bold;
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:30s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+}
+.in_login{
+	padding:40px;
+}
+.button {
+	display:block;
+	width:243px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:RED;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;	
+}
+a{
+	text-decoration: none;
+}
+input {
+	background-color: black;
+	color: white;
+}
+.username{
+	color:black;
+}

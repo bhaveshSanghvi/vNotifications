@@ -1,0 +1,101 @@
+</style>
+#container {
+	background-color:black;
+	width:1000px;
+	height:20px;
+}
+#container.error {
+	width:1000px;
+	height:20px;
+}
+td,th,tr,caption
+{
+	border-width:px;
+}
+body{
+	background-color: white	;
+}
+caption{
+	caption-side:top; 
+	color:white; 
+	background-color:red;
+	text-align: center;
+	padding: 15;
+	height:30px;
+	font-size: 25;
+	letter-spacing: 3;
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:30s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+}
+tr.first_row{
+	color: WHITE;
+	background-color: DarkOliveGreen;
+}
+td.username{
+	width:9%;
+	color:black;
+	background-color:wheat;
+}
+td.group{
+	width:11%;
+	color:maroon;
+	background-color:lightgreen;
+}
+td.title{
+	width:19%;
+	color:maroon;
+	background-color:pink;
+}
+td.message{
+	color:darkblue;
+	background-color:lightblue;
+	width:39%;
+}
+td.decision {
+	width:6%;
+	background-color:wheat;
+}
+table{
+	width:90%;
+	
+}
+.animation {
+	-webkit-animation-name:myfirst;
+	-webkit-animation-duration:30s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */{
+	0%   {background:red;}
+	25%  {background:blue;}
+	65%  {background:green;}
+	100% {background:red;}
+}
+
+body,div.borderdiv{
+	border: 15px groove red;
+	-webkit-animation-name:myborder;
+	-webkit-animation-duration:30s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:1s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-play-state:running;
+
+}
+	@-webkit-keyframes myborder {
+	0%   {border-color: ;}
+	25%  {border-color:blue;}
+	65%  {border-color:green;}
+	100% {border-color:red;}
+}
+</style>
